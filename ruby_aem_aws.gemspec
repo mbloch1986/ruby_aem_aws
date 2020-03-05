@@ -16,7 +16,16 @@ Gem::Specification.new do |s|
   s.files             = Dir.glob('{conf,lib}/**/*')
   s.require_paths     = ['lib']
 
-  s.add_runtime_dependency 'aws-sdk', '3.0.1'
+  # s.add_runtime_dependency 'aws-sdk-core', '3.71.0'
+  s.add_runtime_dependency 'aws-sdk-autoscaling', '1.32.0'
+  s.add_runtime_dependency 'aws-sdk-cloudformation', '1.30.0'
+  s.add_runtime_dependency 'aws-sdk-cloudwatch', '1.32.0'
+  s.add_runtime_dependency 'aws-sdk-cloudwatchlogs', '1.28.0'
+  s.add_runtime_dependency 'aws-sdk-dynamodb', '1.43.0'
+  s.add_runtime_dependency 'aws-sdk-ec2', '1.145.0'
+  s.add_runtime_dependency 'aws-sdk-elasticloadbalancing', '1.19.0'
+  s.add_runtime_dependency 'aws-sdk-s3', '1.60.2'
+  s.add_runtime_dependency 'aws-sdk-sns', '1.21.0'
   s.add_runtime_dependency 'retries', '0.0.5'
   s.add_runtime_dependency 'tuples', '0.1.0'
 

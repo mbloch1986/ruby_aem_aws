@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+require 'aws-sdk-sns'
+
 module RubyAemAws
   # Mixin for interaction with AWS SNS
   module SNSTopic

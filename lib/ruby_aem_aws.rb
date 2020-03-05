@@ -12,6 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+require 'aws-sdk-cloudformation'
+require 'aws-sdk-autoscaling'
+require 'aws-sdk-ec2'
+require 'aws-sdk-elasticloadbalancing'
+require 'aws-sdk-s3'
+require 'aws-sdk-dynamodb'
+require 'aws-sdk-cloudwatch'
+require 'aws-sdk-cloudwatchlogs'
+# require 'aws-sdk-sns'
+
 require_relative 'ruby_aem_aws/architecture/consolidated_stack'
 require_relative 'ruby_aem_aws/architecture/full_set_stack'
 require_relative 'ruby_aem_aws/architecture/stack_manager'

@@ -1,6 +1,16 @@
 source 'https://rubygems.org'
 
-gem 'aws-sdk', '3.0.1'
+# gem 'aws-sdk-core', '3.71.0'
+gem 'aws-sdk-autoscaling', '1.32.0'
+gem 'aws-sdk-cloudformation', '1.30.0'
+gem 'aws-sdk-cloudwatch', '1.32.0'
+gem 'aws-sdk-cloudwatchlogs', '1.28.0'
+gem 'aws-sdk-dynamodb', '1.43.0'
+gem 'aws-sdk-ec2', '1.145.0'
+gem 'aws-sdk-elasticloadbalancing', '1.19.0'
+gem 'aws-sdk-s3', '1.60.2'
+gem 'aws-sdk-sns', '1.21.0'
+
 gem 'retries', '0.0.5'
 gem 'tuples', '0.1.0'
 
